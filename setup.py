@@ -31,6 +31,9 @@ setup(
         'console_scripts': [
             'meme = meme.meme:cli',
         ],
+        'pmxbot_handlers': [
+            'meme = meme.pmxbot',
+        ],
     },
     install_requires=['requests'],
     test_suite='runtests.runtests',
